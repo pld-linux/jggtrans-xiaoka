@@ -1,0 +1,12 @@
+diff -durN jabber-gg-transport-2.0.7.orig/jggtrans.xml jabber-gg-transport-2.0.7/jggtrans.xml
+--- jabber-gg-transport-2.0.7.orig/jggtrans.xml	Sun Sep 14 11:40:40 2003
++++ jabber-gg-transport-2.0.7/jggtrans.xml	Sun Sep 14 11:41:16 2003
+@@ -117,7 +117,7 @@
+ 
+  <!-- Spool directory. This is the place, where user info will be stored. -->
+  <!-- Be careful about permissions - users' GG passwords are stored there -->
+- <spool>/var/lib/jabber/spool/gg.localhost/</spool>
++ <spool>/var/lib/jggtrans/</spool>
+ 
+  <!-- Where to store pid file. This tag is optional. -->
+  <pidfile>/var/run/jggtrans.pid</pidfile>
