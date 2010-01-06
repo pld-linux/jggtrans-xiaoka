@@ -14,11 +14,14 @@ Patch1:		%{name}-spooldir.patch
 URL:		http://svn.xiaoka.com/transports/jggtrans/
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	doxygen
 BuildRequires:	expat-devel >= 1.95.1
+BuildRequires:	gettext-autopoint
 BuildRequires:	gettext-devel >= 0.14.1
 BuildRequires:	glib2-devel >= 2.0.0
 BuildRequires:	libidn-devel >= 0.3.0
 BuildRequires:	libtool
+BuildRequires:	openssl-devel
 BuildRequires:	pkgconfig
 Requires(post):	sed >= 4.0
 Requires(post,preun):	/sbin/chkconfig
