@@ -1,12 +1,12 @@
 Summary:	GaduGadu transport module for Jabber
 Summary(pl.UTF-8):	Moduł transportowy GaduGadu dla systemu Jabber
 Name:		jggtrans-xiaoka
-Version:	20100310
+Version:	20100505
 Release:	0.1
 License:	GPL
 Group:		Applications/Communications
 Source0:	%{name}-%{version}.tar.bz2
-# Source0-md5:	0db904a25fb79a711f436fb79fbe8549
+# Source0-md5:	6b58bdc6d3ea34cdb4043ca7b6140706
 Source1:	%{name}.init
 Source2:	%{name}.sysconfig
 Patch0:		%{name}-pidfile.patch
